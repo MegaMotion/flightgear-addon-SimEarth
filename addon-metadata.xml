@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <meta>
+    <file-type type="string">FlightGear add-on metadata</file-type>
+    <format-version type="int">1</format-version>
+  </meta>
+
+  <addon>
+    <identifier type="string">user.chriscalef.SimEarth</identifier>
+    <name type="string">SimEarth</name>
+    <version type="string">1.0.0</version>
+
+    <authors>
+      <author>
+        <name type="string">Chris Calef</name>
+        <email type="string">chris.calef@gmail.com</email>
+        <url type="string">www.simearth.net</url>
+      </author>
+    </authors>
+
+    <short-description type="string">
+      Save out terrain data, skybox images and other world information. 
+    </short-description>
+
+    <long-description type="string">
+      This add-on allows FlightGear to export terrain height data and textures, skybox images, and potentially other world information, like weather data, to disk files or to another process or machine over a TCP socket. 
+    </long-description>
+
+
+    <min-FG-version type="string">2018.2.0</min-FG-version>
+    <max-FG-version type="string">none</max-FG-version>
+
+    <urls>
+      <home-page type="string">
+        <![CDATA[ https://simearth.net ]]>
+      </home-page>
+
+      <code-repository type="string">
+        https://github.com/MegaMotion/flightgear-addon-SimEarth
+      </code-repository>
+    </urls>
+
+    <tags>
+      <tag type="string">simulation</tag>
+      <tag type="string">earth</tag>
+      <tag type="string">unity</tag>
+      <tag type="string">game</tag>
+    </tags>
+  </addon>
+</PropertyList>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <sim>
+    <menubar>
+      <default>
+        <menu n="101">
+          <label>SimEarth</label>
+          <enabled type="bool">true</enabled>
+
+          <item>
+            <label>Save Terrain</label>
+            <binding>
+              <command>nasal</command>
+              <script>print("SimEarth trying to save data!");</script>
+            </binding>
+          </item>
+
+        </menu>
+      </default>
+    </menubar>
+  </sim>
+</PropertyList>
